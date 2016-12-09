@@ -26,8 +26,8 @@ hr {
 hr.style1 {
   width                       : 50%;
   height                      : 5px;
-  background-color            : #f0c34b;
-  border                      : #f0c34b;
+  background-color            : #69f0ae;
+  border                      : #69f0ae;
   border-radius               : 15px;
 }
 
@@ -50,7 +50,7 @@ h1 {
   padding                     : 0 20px;
   font-size                   : 26px;
   font-weight                 : 900;
-  color                       : #f0c34b;
+  color                       : #56D894;
   text-transform              : uppercase;
 }
 
@@ -78,11 +78,14 @@ h4 {
 .black { color                : #333333; }
 
 .gradient_bg {
-  background-color            : #274356;
-  background                  : linear-gradient(135deg, #274356 20%,#427589 100%);
-  background                  : -webkit-linear-gradient(-45deg, #274356 20%,#427589 100%);
-  background                  : -moz-linear-gradient(-45deg, #274356 20%, #427589 100%);
-  filter                      : progid:DXImageTransform.Microsoft.gradient(startColorstr='#274356', endColorstr='#427589', GradientType=1);
+  background-color            : #202327;
+}
+
+#vid {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 95%;
 }
 
 #container {
@@ -115,7 +118,7 @@ h4 {
 
 #description {
   margin                      : 120px 0 0 0;
-  font-size                   : 25px;
+  font-size                   : 20px;
   font-weight                 : 900;
   color                       : #fff;
   text-align                  : center;
@@ -183,20 +186,33 @@ br.desc {
   height                      : 380px;
 }
 
+#apk {
+  display                     : block;
+  margin                      : 0 auto;
+  margin-bottom               : 35px;
+  padding                     : 0;
+  width                       : 270px;
+}
+
 #introduction #item {
-  height                      : 350px;
+  height                      : 300px;
 }
 
 #documentations #item {
-  height                      : 350px;
+  height                      : 300px;
 }
 
-#item_svg {
+#item_svg,
+.photo {
   display                     : block;
   margin                      : 0 auto;
   padding                     : 0;
-  width                       : 260px;
-  height                      : 260px;
+  width                       : 190px;
+  height                      : 190px;
+}
+
+.photo {
+  border-radius               :100px;
 }
 
 #pattern_video {
@@ -214,7 +230,7 @@ br.desc {
 
 #documentations {
   height                      : auto;
-  background-color            : #f0c34b;
+  background-color            : #56D894;
 }
 
 .btn {
@@ -239,9 +255,9 @@ br.desc {
 
 .btn_style {
   color                       : #fff;
-  background                  : #345a70;
+  background                  : #333;
   border-radius               : 40px;
-  box-shadow                  : 0 6px #274356;
+  box-shadow                  : 0 6px #202327;
   -webkit-transition          : none;
      -moz-transition          : none;
           transition          : none;
@@ -249,12 +265,12 @@ br.desc {
 
 .btn_style:hover {
   top                         : 2px;
-  box-shadow                  : 0 4px #274356;
+  box-shadow                  : 0 4px #202327;
 }
 
 .btn_style:active {
   top                         : 6px;
-  box-shadow                  : 0 0 #274356;
+  box-shadow                  : 0 0 #202327;
 }
 
 #minutes {
@@ -622,6 +638,10 @@ h2 { font-size                : 26px; }
 h3 { font-size                : 18px; }
 h4 { font-size                : 18px; }
 
+#vid {
+  width: 500px;
+}
+
 #logo {
   margin                      : 30px 0 0 30px;
   width                       : 58px;
@@ -750,9 +770,14 @@ br.desc {
   height                      : 400px;
 }
 
-#item_svg {
-  width                       : 300px;
-  height                      : 300px;
+#item_svg,
+.photo {
+  width                       : 230px;
+  height                      : 230px;
+}
+
+.photo {
+  border-radius               :120px;
 }
 
 .slick-slide {
